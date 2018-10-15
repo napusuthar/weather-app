@@ -1,0 +1,84 @@
+.weatherCard {
+    display: flex;
+    margin: 0 24px 8px 8px;
+
+}
+
+.weatherIcon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherData {
+    flex: 1.5;
+    text-align: end;
+    color: #fff;
+
+}
+
+.weatherIconImage {
+    width: 76px;
+    height: 76px;
+}
+
+.dateDisplay {
+    background-color: #37474F;
+    padding: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dateDisplay strong {
+    flex: 1;
+    right: 24px;
+}
+
+.dateDisplay input {
+    flex: 1;
+    left: 24px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #fff;
+    text-transform: capitalize;
+}
+.dateDisplay input:focus {
+    outline: none;
+}
+
+.dateDisplay button {
+    margin-left: 5px;
+    flex: 0.3;
+    background-color: rgba(255,255,255,1);
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #000;
+}
+
+.dateDisplay button:focus {
+    outline: none;
+}
+
+.dateDisplay button:hover {
+    background-color: rgba(155,155,155,1);
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .dateDisplay input {
+        flex: 1;
+        width: 48px;
+        
+        background-color: rgba(0,0,0,0);
+        border: none;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #fff;
+        text-transform: capitalize;
+    }
+  }

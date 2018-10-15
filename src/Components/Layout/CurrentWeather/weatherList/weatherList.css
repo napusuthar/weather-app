@@ -1,0 +1,19 @@
+.weatherList{
+    display: flex;
+    background-color: #546E7A;
+    height: 76px;
+    
+}
+
+.weatherList div{
+    flex: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherListIcon{
+    width: 36px;
+    height: 36px;
+}

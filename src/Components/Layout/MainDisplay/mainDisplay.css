@@ -1,0 +1,22 @@
+.MainDisp{
+    padding: 0px;
+    margin: 50px 40px 50px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    align-items: center;
+    justify-content: center;
+}
+
+.MainDisp:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 600px) {
+    .MainDisp{
+        margin: 25px 10px 25px 10px;
+       
+    }
+  }

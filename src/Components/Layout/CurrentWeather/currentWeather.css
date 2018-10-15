@@ -1,0 +1,7 @@
+.currentWeather{
+    padding: 0px;
+    flex: 1;
+    background-color: #455A64;
+    position: relative;
+}
+

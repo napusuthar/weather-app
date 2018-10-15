@@ -1,0 +1,17 @@
+.forecast{
+    padding: 0px;
+    flex: 2;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.forecast h3{
+    text-align: center;    
+}
+
+.lineGraph{
+    padding-left:56px;
+    padding-right:56px;
+}
+
