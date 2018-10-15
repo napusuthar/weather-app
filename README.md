@@ -7,8 +7,5 @@ Open source Weather App project in React Js using openweather api (https://openw
 
 ![picture](https://github.com/napusuthar/weather-app/blob/master/snapshots/weather-capture.PNG)
 
-* React Js
-
-
 ## Author
 * **Narapt Suthar**
