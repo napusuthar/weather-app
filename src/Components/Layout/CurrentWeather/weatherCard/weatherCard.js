@@ -1,6 +1,5 @@
 import React from 'react';
 import './weatherCard.css'
-import Aux from '../../../hoc/Aux'
 
 const weatherCard = (props) => {
 
@@ -33,7 +32,7 @@ const weatherCard = (props) => {
     }
 
     return (
-        <Aux>
+        <div>
             <div className="dateDisplay">
                 <strong>{props.data.date}</strong>
                 <input
@@ -56,7 +55,7 @@ const weatherCard = (props) => {
                     </h3>
                 </div>
             </div>
-        </Aux>
+        </div>
     )
 };
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import CurrentWeather from '../CurrentWeather/currentWeather'
 import Forecast from '../Forecast/forecast'
-import Aux from '../../hoc/Aux'
 import './mainDisplay.css'
 
 class MainDisplay extends React.Component {
@@ -28,13 +27,11 @@ class MainDisplay extends React.Component {
     render() {
         if (this.state != null) {
             return (
-                <Aux>
                     <div className="MainDisp">
                         <CurrentWeather action={this.updateCity} weatherDataSet={this.state}/>
                         
                         <Forecast forecastDataset={this.state.list}/>
                     </div>
-                </Aux>
             )
         } else {
             return <h1>Loading...</h1>
